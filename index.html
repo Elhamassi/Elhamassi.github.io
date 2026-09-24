@@ -1,0 +1,341 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+        <script src="./bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+
+        <meta name="description" content="CV de Yousra El Hamassi Azhrioun : développeuse Full Stack en formation Data Analyst, recherche de stage du 23/11/2026 au 19/04/2027.">
+        <title>Yousra El Hamassi Azhrioun – Data Analyst | Développeuse Full Stack</title>
+        <style>
+            .pbottom50{
+                padding-bottom: 50px;
+            }
+            .pbottom20{
+                padding-bottom: 20px;
+            }
+            .pbottom10{
+                padding-bottom: 10px;
+            }
+            .pbottom5{
+                padding-bottom: 5px;
+            }
+            .mbottom0{
+                margin-bottom: 0px;
+            }
+            .ptop{
+                padding-top: 60px;
+            }
+            .pbottom{
+                padding-bottom: 60px;
+            }
+            .pr{
+                padding-right: 5px;
+            }
+            .pl{
+                padding-left: 35px;
+            }
+            .mbottom{
+                margin-bottom: 50px;
+            }
+            .mtop20{
+                margin-top: 20px;
+            }
+            .mtop100{
+                margin-top: 80px;
+            }
+
+            .pipline{
+                position: relative;
+            }
+            .pipline:before{
+                content: "";
+                height: 100%;
+                width: 5px;
+                background: #0d6efd9c;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                top: -5px;
+            }
+            .pipline span{
+                height: 15px;
+                width: 15px;
+                border-radius: 50%;
+                display: block;
+                background: #0d6efd5c;
+                position: absolute;
+                left: 50%;
+                margin-top: 10px;
+                transform: translateX(-50%);
+            }
+            .pipline span:before{
+                content: '';
+                height: 7px;
+                width: 7px;
+                background: #fff;
+                border-radius: 50%;
+                position: absolute;
+                left: 52%;
+                top: 4px;
+                transform: translateX(-50%);
+            }
+            .main{
+                background-image: url('./images/main.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+            }
+            .tile{width:110px;}
+            .height100{
+                height: 100%;
+            }
+            .fs14{
+                font-size: 14px;
+            }
+            .lh{
+                line-height: 2;
+            }
+            .rot{
+                -moz-transition: all 500ms ease;
+                -o-transition: all 500ms ease;
+                -webkit-transition: all 500ms ease;
+                transition: all 500ms ease;
+            }
+            .rot:hover {
+                -moz-transform: rotate(2deg);
+                -o-transform: rotate(2deg);
+                -webkit-transform: rotate(2deg);
+                transform: rotate(2deg);
+            }
+        </style>
+    </head>
+    <body class="bg-primary text-dark bg-opacity-10">
+        <header class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="container-xxl flex-wrap" aria-label="Main navigation">
+                
+                <ul class="navbar-nav flex-row gap-3 me-auto">
+                    <li class="nav-item"><a class="nav-link" href="#profil">PROFIL</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#formation">FORMATION</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#competence">COMPÉTENCES</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projets">PROJETS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experence">EXPÉRIENCES</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#langues">LANGUES</a></li>
+                </ul>
+                <div class="d-none d-xl-flex gap-4">
+                    <small><i class="fa fa-phone-square text-primary"></i> <a class="text-reset text-decoration-none" href="tel:+33758438266"><b>+33 7 58 43 82 66</b></a></small>
+                    <small><i class="fa fa-envelope text-primary"></i> <a class="text-reset text-decoration-none" href="mailto:yousraelhamassi@gmail.com"><b>yousraelhamassi@gmail.com</b></a></small>
+                    <small><i class="fa fa-map-marker text-primary"></i> <b>Saint-Étienne, France</b></small>
+                </div>
+            </nav>
+        </header>
+        <main class="container" style="margin-top: 35px;">
+            <div class="card bg-light mbottom">
+                <div class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./images/main.jpg" class="d-block w-100" title="Photo by Mohammad Rahmani on Unsplash" alt="Photo by Mohammad Rahmani on Unsplash">
+                            <div class="carousel-caption d-none d-md-block" style="top:25%;">
+                                <h1 class="fw-light">EL HAMASSI AZHRIOUN Yousra</h1>
+                                <h6>Développeuse Full Stack · En formation Data Analyst</h6>
+                                <p class="mtop20">Recherche de stage en Data Analyst<br>du 23/11/2026 au 19/04/2027</p>
+                                <a href="#profil" class="btn btn-primary">Mon profil</a>
+                                <a href="./cv-yousra-el-hamassi.pdf" class="btn btn-outline-light" download><i class="fa fa-download"></i> Télécharger mon CV</a>
+                                <a href="https://www.linkedin.com/in/yousra-el-hamassi-1810701a6" class="btn btn-outline-light" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i> LinkedIn</a>
+                                <a href="https://github.com/Elhamassi" class="btn btn-outline-light" target="_blank" rel="noopener"><i class="fa fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <!-- PROFIL -->
+                    <div id="profil" class="row ptop pbottom">
+                        <div class="col-md-12 text-center">
+                            <h4 class="fw-light">PROFIL</h4>
+                        </div>
+                    </div>
+                    <div class="row pbottom">
+                        <div class="col-md-10 offset-md-1 text-center lh">
+                            <p>Actuellement en formation Data Analyst afin d’élargir mes compétences vers l’analyse et la valorisation des données.</p>
+                            <p>Développeuse PHP avec plus de 6 ans d’expérience, diplômée de l’ENSA Tanger, avec des compétences complémentaires en Angular, React, Spring Boot et Flask/Python (machine learning).</p>
+                        </div>
+                    </div>
+                    <!-- FORMATION -->
+                    <div id="formation" class="row ptop pbottom">
+                        <div class="col-md-12 text-center">
+                            <h4 class="fw-light">FORMATION</h4>
+                        </div>
+                    </div>
+                    <div class="row pbottom">
+                        <div class="col-md-12">
+                            <div class="row row-cols-2 pipline">
+                                <div class="col-6 pbottom50 text-center">
+                                    <span></span>
+                                    <h6 class="mbottom0">En cours</h6>
+                                    <small class="text-muted">Saint-Étienne - France</small>
+                                </div>
+                                <div class="col-1 pbottom50"></div>
+                                <div class="col-5 pbottom50">
+                                    <h6 class="mbottom0">Formation Data Analyst</h6>
+                                    <small class="text-muted">Garage404<br> Python, SQL, statistiques et data visualisation appliqués à l’analyse de données</small>
+                                </div>
+                                <div class="col-6 pbottom50 text-center">
+                                    <span></span>
+                                    <h6 class="mbottom0">2021 - 2023</h6>
+                                    <small class="text-muted">Tanger - Maroc</small>
+                                </div>
+                                <div class="col-1 pbottom50"></div>
+                                <div class="col-5 pbottom50">
+                                    <h6 class="mbottom0">Diplôme du Cycle des Études Supérieures Spécialisées (DCESS)</h6>
+                                    <small class="text-muted">École Nationale des Sciences<br> Appliquées de Tanger (ENSA)</small>
+                                </div>
+                                <div class="col-6 pbottom50 text-center">
+                                    <span></span>
+                                    <h6 class="mbottom0">2017 - 2018</h6>
+                                    <small class="text-muted">Tanger - Maroc</small>
+                                </div>
+                                <div class="col-1 pbottom50"></div>
+                                <div class="col-5 pbottom50">
+                                    <h6 class="mbottom0">Diplôme du Cycle<br> d’Approfondissement (DCA)</h6>
+                                    <small class="text-muted">École Nationale des Sciences<br> Appliquées de Tanger (ENSA)</small>
+                                </div>
+                                <div class="col-6 pbottom50 text-center">
+                                    <span></span>
+                                    <h6 class="mbottom0">2015 - 2017</h6>
+                                    <small class="text-muted">Tanger - Maroc</small>
+                                </div>
+                                <div class="col-1 pbottom50"></div>
+                                <div class="col-5 pbottom50">
+                                    <h6 class="mbottom0">Diplôme de Technicien Spécialisé<br> en développement informatique</h6>
+                                    <small class="text-muted">Institut Spécialisé de Technologie<br> Appliquée (ISTA)</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- COMPETENCES -->
+                    <div id="competence" class="row ptop pbottom bg-primary bg-opacity-10">
+                        <div class="col-md-12 text-center">
+                            <h4 class="fw-light">COMPÉTENCES</h4>
+                        </div>
+                    </div>
+<div class="row pbottom20 bg-primary bg-opacity-10 text-center"><div class="col-12"><h6 class="fw-bold text-primary mb-3">DATA</h6><div class="d-flex flex-wrap justify-content-center align-items-end"><div class="tile text-center m-2"><img src="./images/python.png" width="60" height="50" alt="Python" style="object-fit:contain;"><div class="small text-muted mt-1">Python</div></div><div class="tile text-center m-2"><img src="./images/sql.png" width="100" height="50" alt="SQL / SQL Server" style="object-fit:contain;"><div class="small text-muted mt-1">SQL / SQL Server</div></div><div class="tile text-center m-2"><img src="./images/mysql.svg" width="50" height="50" alt="MySQL" style="object-fit:contain;"><div class="small text-muted mt-1">MySQL</div></div><div class="tile text-center m-2"><img src="./images/postgresql.svg" width="50" height="50" alt="PostgreSQL" style="object-fit:contain;"><div class="small text-muted mt-1">PostgreSQL</div></div><div class="tile text-center m-2"><img src="./images/excel.png" width="50" height="50" alt="Excel" style="object-fit:contain;"><div class="small text-muted mt-1">Excel</div></div><div class="tile text-center m-2"><img src="./images/powerbi.svg" width="50" height="50" alt="Power BI" style="object-fit:contain;"><div class="small text-muted mt-1">Power BI</div></div></div></div></div>
+<div class="row pbottom20 bg-primary bg-opacity-10 text-center"><div class="col-12"><h6 class="fw-bold text-primary mb-3">WEB &amp; DÉVELOPPEMENT</h6><div class="d-flex flex-wrap justify-content-center align-items-end"><div class="tile text-center m-2"><img src="./images/php.png" width="50" height="50" alt="PHP" style="object-fit:contain;"><div class="small text-muted mt-1">PHP</div></div><div class="tile text-center m-2"><img src="./images/html.png" width="55" height="50" alt="HTML" style="object-fit:contain;"><div class="small text-muted mt-1">HTML</div></div><div class="tile text-center m-2"><img src="./images/css.png" width="40" height="50" alt="CSS" style="object-fit:contain;"><div class="small text-muted mt-1">CSS</div></div><div class="tile text-center m-2"><img src="./images/javascript.png" width="55" height="50" alt="JavaScript" style="object-fit:contain;"><div class="small text-muted mt-1">JavaScript</div></div><div class="tile text-center m-2"><img src="./images/java.png" width="70" height="60" alt="Java" style="object-fit:contain;"><div class="small text-muted mt-1">Java</div></div><div class="tile text-center m-2"><img src="./images/c.png" width="50" height="50" alt="C#" style="object-fit:contain;"><div class="small text-muted mt-1">C#</div></div><div class="tile text-center m-2"><img src="./images/react.svg" width="50" height="50" alt="ReactJS" style="object-fit:contain;"><div class="small text-muted mt-1">ReactJS</div></div><div class="tile text-center m-2"><img src="./images/angular.svg" width="50" height="50" alt="Angular" style="object-fit:contain;"><div class="small text-muted mt-1">Angular</div></div></div></div></div>
+<div class="row pbottom20 bg-primary bg-opacity-10 text-center"><div class="col-12"><h6 class="fw-bold text-primary mb-3">OUTILS &amp; SYSTÈMES</h6><div class="d-flex flex-wrap justify-content-center align-items-end"><div class="tile text-center m-2"><img src="./images/vs.png" width="100" height="60" alt="Visual Studio" style="object-fit:contain;"><div class="small text-muted mt-1">Visual Studio</div></div><div class="tile text-center m-2"><img src="./images/eclipse.png" width="50" height="50" alt="Eclipse" style="object-fit:contain;"><div class="small text-muted mt-1">Eclipse</div></div><div class="tile text-center m-2"><img src="./images/unix.png" width="100" height="65" alt="Linux" style="object-fit:contain;"><div class="small text-muted mt-1">Linux</div></div><div class="tile text-center m-2"><img src="./images/word.png" width="50" height="50" alt="Word" style="object-fit:contain;"><div class="small text-muted mt-1">Word</div></div><div class="tile text-center m-2"><img src="./images/power.png" width="50" height="50" alt="PowerPoint" style="object-fit:contain;"><div class="small text-muted mt-1">PowerPoint</div></div><div class="tile text-center m-2"><img src="./images/git.svg" width="50" height="50" alt="Git" style="object-fit:contain;"><div class="small text-muted mt-1">Git</div></div><div class="tile text-center m-2"><img src="./images/centos.svg" width="50" height="50" alt="CentOS" style="object-fit:contain;"><div class="small text-muted mt-1">CentOS</div></div></div></div></div>
+<div class="row pbottom20 bg-primary bg-opacity-10 text-center"><div class="col-12"><h6 class="fw-bold text-primary mb-3">SAVOIR-ÊTRE</h6><div class="d-flex flex-wrap justify-content-center align-items-end"><span class="badge bg-success bg-opacity-75 fw-normal fs-6 px-3 py-2 m-1">Esprit analytique et logique</span><span class="badge bg-success bg-opacity-75 fw-normal fs-6 px-3 py-2 m-1">Esprit d’équipe et collaboration</span><span class="badge bg-success bg-opacity-75 fw-normal fs-6 px-3 py-2 m-1">Organisation et gestion des priorités</span><span class="badge bg-success bg-opacity-75 fw-normal fs-6 px-3 py-2 m-1">Recherche documentaire et autonomie dans l’apprentissage</span></div></div></div>
+                    <div class="row bg-primary bg-opacity-10 pbottom50"></div>
+                    <!-- PROJETS -->
+                    <div id="projets" class="row ptop pbottom">
+                        <div class="col-md-12 text-center">
+                            <h4 class="fw-light">PROJETS</h4>
+                        </div>
+                    </div>
+                    <div class="row pbottom"><div class="col-12"><div class="row row-cols-1 row-cols-lg-3 g-3"><div class="col"><div class="card h-100 shadow-sm"><div class="row g-1 p-2"><div class="col-4"><a href="./images/projets/pbi-ventes.jpg" target="_blank" rel="noopener"><img src="./images/projets/pbi-ventes.jpg" class="rounded w-100" style="height:85px;object-fit:cover;" alt="Dashboards Power BI – pbi-ventes" loading="lazy"></a></div><div class="col-4"><a href="./images/projets/pbi-fintech.jpg" target="_blank" rel="noopener"><img src="./images/projets/pbi-fintech.jpg" class="rounded w-100" style="height:85px;object-fit:cover;" alt="Dashboards Power BI – pbi-fintech" loading="lazy"></a></div><div class="col-4"><a href="./images/projets/pbi-fidelite.jpg" target="_blank" rel="noopener"><img src="./images/projets/pbi-fidelite.jpg" class="rounded w-100" style="height:85px;object-fit:cover;" alt="Dashboards Power BI – pbi-fidelite" loading="lazy"></a></div></div><div class="card-body pt-2"><h5 class="card-title fw-light mbottom0">Dashboards Power BI</h5><small class="text-muted">Projet de formation Data Analyst</small><p class="fs14 mtop20">Trois dashboards interactifs : analyse des ventes, suivi d’activité d’une FinTech de transfert d’argent et fidélité client.</p><ul class="fs14 ps-3"><li class="mb-2"><b>Analyse des ventes :</b> évolution du chiffre d’affaires, répartition par catégorie et par ville, filtres temporels.</li><li class="mb-2"><b>FinTech :</b> 1,26 M€ d’opérations, taux de réussite de 77,82 % et taux d’échec de 14,53 %, évolution mensuelle du volume et du montant.</li><li class="mb-2"><b>Fidélité client :</b> 150 clients, ancienneté moyenne de 947,56 jours, 21,98 transferts en moyenne par client actif.</li></ul><div><span class="badge bg-primary bg-opacity-10 text-primary fw-normal me-1 mb-1">Power BI</span><span class="badge bg-primary bg-opacity-10 text-primary fw-normal me-1 mb-1">Power Query</span><span class="badge bg-primary bg-opacity-10 text-primary fw-normal me-1 mb-1">DAX</span><span class="badge bg-primary bg-opacity-10 text-primary fw-normal me-1 mb-1">KPI</span><span class="badge bg-primary bg-opacity-10 text-primary fw-normal me-1 mb-1">Data Visualization</span></div></div><div class="card-footer bg-transparent border-0 pb-3"><a class="btn btn-outline-primary btn-sm" href="https://github.com/Elhamassi/powerbi-data-analyst-dashboards" target="_blank" rel="noopener"><i class="fa fa-github"></i> Voir le projet sur GitHub</a></div></div></div><div class="col"><div class="card h-100 shadow-sm"><div class="row g-1 p-2"><div class="col-4"><a href="./images/projets/stockify-dashboard.jpg" target="_blank" rel="noopener"><img src="./images/projets/stockify-dashboard.jpg" class="rounded w-100" style="height:85px;object-fit:cover;" alt="Stockify – stockify-dashboard" loading="lazy"></a></div><div class="col-4"><a href="./images/projets/stockify-produit.jpg" target="_blank" rel="noopener"><img src="./images/projets/stockify-produit.jpg" class="rounded w-100" style="height:85px;object-fit:cover;" alt="Stockify – stockify-produit" loading="lazy"></a></div><div class="col-4"><a href="./images/projets/stockify-vente.jpg" target="_blank" rel="noopener"><img src="./images/projets/stockify-vente.jpg" class="rounded w-100" style="height:85px;object-fit:cover;" alt="Stockify – stockify-vente" loading="lazy"></a></div></div><div class="card-body pt-2"><h5 class="card-title fw-light mbottom0">Stockify</h5><small class="text-muted">Projet de fin d’études</small><p class="fs14 mtop20">Plateforme SaaS de gestion de stock et des ventes destinée aux boutiques individuelles.</p><ul class="fs14 ps-3"><li class="mb-2"><b>Dashboards</b> administrateur et gérant : ventes des huit derniers mois, produits proches de la rupture, clients aux paiements insuffisants.</li><li class="mb-2"><b>Gestion</b> des produits, des clients et des ventes depuis un même espace.</li><li class="mb-2"><b>Traçabilité</b> des opérations et téléchargement du détail d’une vente au format PDF.</li></ul><div><span class="badge bg-primary bg-opacity-10 text-primary fw-normal me-1 mb-1">Angular 13</span><span class="badge bg-primary bg-opacity-10 text-primary fw-normal me-1 mb-1">Spring Boot 2.7.9</span><span class="badge bg-primary bg-opacity-10 text-primary fw-normal me-1 mb-1">Java</span><span class="badge bg-primary bg-opacity-10 text-primary fw-normal me-1 mb-1">TypeScript</span><span class="badge bg-primary bg-opacity-10 text-primary fw-normal me-1 mb-1">MySQL</span><span class="badge bg-primary bg-opacity-10 text-primary fw-normal me-1 mb-1">Git</span></div></div><div class="card-footer bg-transparent border-0 pb-3"><a class="btn btn-outline-primary btn-sm" href="https://github.com/Elhamassi/stockify-portfolio" target="_blank" rel="noopener"><i class="fa fa-github"></i> Voir le projet sur GitHub</a></div></div></div><div class="col"><div class="card h-100 shadow-sm"><div class="row g-1 p-2"><div class="col-4"><a href="./images/projets/spammer-intro.jpg" target="_blank" rel="noopener"><img src="./images/projets/spammer-intro.jpg" class="rounded w-100" style="height:85px;object-fit:cover;" alt="Spammer App – spammer-intro" loading="lazy"></a></div><div class="col-4"><a href="./images/projets/spammer-interface.jpg" target="_blank" rel="noopener"><img src="./images/projets/spammer-interface.jpg" class="rounded w-100" style="height:85px;object-fit:cover;" alt="Spammer App – spammer-interface" loading="lazy"></a></div><div class="col-4"><a href="./images/projets/spammer-resultat.jpg" target="_blank" rel="noopener"><img src="./images/projets/spammer-resultat.jpg" class="rounded w-100" style="height:85px;object-fit:cover;" alt="Spammer App – spammer-resultat" loading="lazy"></a></div></div><div class="card-body pt-2"><h5 class="card-title fw-light mbottom0">Spammer App</h5><small class="text-muted">Détection de spam par Machine Learning</small><p class="fs14 mtop20">Application web qui scanne le texte d’un e-mail et prédit s’il est spam ou non-spam, pour aider les équipes marketing à vérifier un message avant son envoi.</p><ul class="fs14 ps-3"><li class="mb-2"><b>Machine Learning :</b> modèle de classification Naive Bayes en Python, sauvegardé dans un fichier .pkl.</li><li class="mb-2"><b>Backend Flask :</b> reçoit le texte, interroge le modèle et renvoie la prédiction.</li><li class="mb-2"><b>Frontend Angular :</b> saisie du message, bouton Processing et affichage du résultat.</li></ul><div><span class="badge bg-primary bg-opacity-10 text-primary fw-normal me-1 mb-1">Python</span><span class="badge bg-primary bg-opacity-10 text-primary fw-normal me-1 mb-1">Machine Learning</span><span class="badge bg-primary bg-opacity-10 text-primary fw-normal me-1 mb-1">Naive Bayes</span><span class="badge bg-primary bg-opacity-10 text-primary fw-normal me-1 mb-1">Flask</span><span class="badge bg-primary bg-opacity-10 text-primary fw-normal me-1 mb-1">Angular</span></div></div><div class="card-footer bg-transparent border-0 pb-3"><a class="btn btn-outline-primary btn-sm" href="https://github.com/Elhamassi/spammer-project" target="_blank" rel="noopener"><i class="fa fa-github"></i> Voir le projet sur GitHub</a></div></div></div></div></div></div>
+                    <!-- EXPERIENCES -->
+                    <div id="experence" class="row ptop pbottom">
+                        <div class="col-md-12 text-center">
+                            <h4 class="fw-light">EXPÉRIENCES PROFESSIONNELLES</h4>
+                        </div>
+                    </div>
+                    <div class="container pbottom">
+                        <div class="container">
+                            <div class="row g-2">
+                                <div class="col-6">
+                                    <div class="p-3 bg-light height100">
+                                        <img src="./images/p1.jpg" class="img-fluid rot" alt="" title="Photo by Ilya Pavlov on Unsplash">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="p-3 bg-light height100">
+                                        <div class="mtop20">
+                                            <small><b>Avr. 2018 – Juin 2024</b> <span class="text-muted">Tanger-Maroc</span></small>
+                                            <h4 class="fw-light mtop20">GM Solution</h4>
+                                            <p class="mtop20 fs14">Poste occupé : Développeuse Full Stack (Département IT).</p>
+                                            <ul class="list-unstyled lh fs14">
+                                                <li><i class="fa fa-dot-circle-o text-primary pr"></i> <b>Développement web &amp; applications internes :</b> conception de sites web et d’outils internes destinés à automatiser et fiabiliser les processus métier de l’entreprise.</li>
+                                                <li><i class="fa fa-dot-circle-o text-primary pr"></i> <b>Web scraping &amp; automatisation :</b> mise en place de solutions pour la collecte et le traitement de données web.</li>
+                                                <li><i class="fa fa-dot-circle-o text-primary pr"></i> <b>Conception d’API :</b> développement et documentation d’API REST pour l’interconnexion des systèmes internes.</li>
+                                                <li><i class="fa fa-dot-circle-o text-primary pr"></i> <b>Revue de code :</b> participation aux revues pour garantir la qualité, la lisibilité et la maintenabilité des applications.</li>
+                                                <li><i class="fa fa-dot-circle-o text-primary pr"></i> <b>Maintenance :</b> analyse et résolution des anomalies applicatives, suivi des correctifs et des mises à jour.</li>
+                                                <li><i class="fa fa-dot-circle-o text-primary pr"></i> <b>Chiffrage des besoins :</b> analyse des besoins métier et estimation de la charge de développement des nouvelles fonctionnalités.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="p-3 bg-light height100">
+                                        <div class="mtop20">
+                                            <small><b>Nov. 2017 – Mars 2018</b> <span class="text-muted">Tanger-Maroc</span></small>
+                                            <h4 class="fw-light mtop20">Association Aide et Secours</h4>
+                                            <p class="mtop20 fs14">Poste occupé : Testeuse de bases de données.</p>
+                                            <ul class="list-unstyled lh fs14">
+                                                <li><i class="fa fa-dot-circle-o text-primary pr"></i> Test et résolution des anomalies dans les applications de l’association.</li>
+                                                <li><i class="fa fa-dot-circle-o text-primary pr"></i> Création de fonctions SQL pour l’édition de reçus.</li>
+                                                <li><i class="fa fa-dot-circle-o text-primary pr"></i> Formation des employés à l’utilisation des outils informatiques.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="p-3 bg-light height100">
+                                        <img src="./images/p2.jpg" class="img-fluid rot" alt="" title="Photo by Wesley Tingey on Unsplash">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="p-3 bg-light height100">
+                                        <img src="./images/p3.jpg" class="img-fluid rot" alt="" title="Photo by Med Badr Chemmaoui on Unsplash">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="p-3 bg-light height100">
+                                        <div class="mtop20">
+                                            <small><b>Avr. 2017</b> <span class="text-muted">Tanger-Maroc</span></small>
+                                            <h4 class="fw-light mtop20">Digital Business Solution</h4>
+                                            <p class="mtop20 fs14">Poste occupé : Conceptrice de bases de données.</p>
+                                            <ul class="list-unstyled lh fs14">
+                                                <li><i class="fa fa-dot-circle-o text-primary pr"></i> Analyse des besoins clients et rédaction de cahiers des charges.</li>
+                                                <li><i class="fa fa-dot-circle-o text-primary pr"></i> Conception de diagrammes de classes.</li>
+                                                <li><i class="fa fa-dot-circle-o text-primary pr"></i> Développement de bases de données sous SQL Server.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- LANGUES -->
+                    <div id="langues" class="row ptop pbottom bg-primary bg-opacity-10">
+                        <div class="col-md-12 text-center">
+                            <h4 class="fw-light">LANGUES</h4>
+                        </div>
+                    </div>
+                    <div class="row pbottom bg-primary bg-opacity-10 text-center">
+                        <div class="col-md-8 offset-md-2"><div class="row row-cols-3 g-3"><div class="col"><div class="p-3 border bg-light height100"><i class="fa fa-globe fa-3x text-primary pbottom20 rot"></i><h6 class="fw-light mbottom0">Arabe</h6><small>Langue maternelle</small></div></div><div class="col"><div class="p-3 border bg-light height100"><i class="fa fa-language fa-3x text-primary pbottom20 rot"></i><h6 class="fw-light mbottom0">Français</h6><small>Niveau professionnel</small></div></div><div class="col"><div class="p-3 border bg-light height100"><i class="fa fa-language fa-3x text-primary pbottom20 rot"></i><h6 class="fw-light mbottom0">Anglais</h6><small>Niveau professionnel</small></div></div></div></div>
+                    </div>
+                    <!-- CENTRES D'INTERET -->
+                    <div id="interets" class="row ptop pbottom bg-primary bg-opacity-10">
+                        <div class="col-md-12 text-center">
+                            <h4 class="fw-light">CENTRES D’INTÉRÊT</h4>
+                        </div>
+                    </div>
+                    <div class="row pbottom bg-primary bg-opacity-10 text-center">
+                        <div class="col-md-10 offset-md-1"><div class="row row-cols-2 row-cols-md-4 g-3"><div class="col"><div class="p-3 border bg-light height100"><i class="fa fa-cutlery fa-3x text-danger pbottom20 rot"></i><h6 class="fw-light mbottom0">Cuisine</h6></div></div><div class="col"><div class="p-3 border bg-light height100"><i class="fa fa-map-signs fa-3x text-warning pbottom20 rot"></i><h6 class="fw-light mbottom0">Marche</h6></div></div><div class="col"><div class="p-3 border bg-light height100"><i class="fa fa-heartbeat fa-3x text-success pbottom20 rot"></i><h6 class="fw-light mbottom0">Sport</h6></div></div><div class="col"><div class="p-3 border bg-light height100"><i class="fa fa-paint-brush fa-3x text-primary pbottom20 rot"></i><h6 class="fw-light mbottom0">Coloriage</h6></div></div></div></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="text-center p-4">
+                © 2026 <a class="text-reset fw-bold text-decoration-none" href="#">EL HAMASSI AZHRIOUN Yousra</a>
+                <div class="mt-2">
+                    <a class="text-reset me-3" href="https://www.linkedin.com/in/yousra-el-hamassi-1810701a6" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                    <a class="text-reset" href="https://github.com/Elhamassi" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa fa-github fa-2x"></i></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
